@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AwardAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/awardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_award_title" />
+
+        <EditText
+            android:id="@+id/awardDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_description"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/awardMoneyCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_bonus_moneycost"
+            android:inputType="numberSigned" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/award_list_timecost"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RelativeLayout
+            android:id="@+id/awardCostPickers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/awardPickersTextHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/awardDivider"
+                android:layout_toStartOf="@+id/awardDivider"
+                android:text="@string/add_text_hours"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/awardDivider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <NumberPicker
+                android:id="@+id/awardMinPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/awardDivider"
+                android:layout_toRightOf="@+id/awardDivider" />
+
+            <TextView
+                android:id="@+id/awardPickersTextMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/awardMinPicker"
+                android:layout_toRightOf="@+id/awardMinPicker"
+                android:text="@string/add_text_min"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <NumberPicker
+                android:id="@+id/awardHourPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/awardPickersTextHours"
+                android:layout_toStartOf="@+id/awardPickersTextHours" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/awardResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/awardSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_save" />
+
+        <Button
+            android:id="@+id/awardCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_cancel" />
+
+    </LinearLayout>
+</ScrollView>

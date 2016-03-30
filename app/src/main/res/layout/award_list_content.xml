@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="title"
+        android:textStyle="bold"
+        android:id="@+id/listcontentAwardTitle"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bonus needed"
+        android:id="@+id/textView6"
+        android:layout_row="0"
+        android:layout_column="3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/listcontentAwardDescription"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="bonus"
+        android:id="@+id/listcontentAwardNeededBonus"
+        android:layout_row="1"
+        android:layout_column="3" />
+</GridLayout>

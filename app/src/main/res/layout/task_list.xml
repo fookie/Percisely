@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:divider="@android:drawable/divider_horizontal_bright"
+    android:dividerHeight="1dp"
+    tools:context="assignment.paulay.percisely.TaskListActivity"
+    tools:listitem="@layout/task_list_content" />

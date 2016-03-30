@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "assignment.paulay.percisely.TaskListActivity"/>
+      <point      
+        x = "2280"      
+        y = "12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "assignment.paulay.percisely.AwardAdd"/>
+      <point      
+        x = "1564"      
+        y = "0"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "assignment.paulay.percisely.AchievementListActivity"/>
+      <point      
+        x = "584"      
+        y = "12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "assignment.paulay.percisely.Settings"/>
+      <point      
+        x = "1928"      
+        y = "960"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "assignment.paulay.percisely.TaskAdd"/>
+      <point      
+        x = "1032"      
+        y = "952"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "assignment.paulay.percisely.AwardListActivity"/>
+      <point      
+        x = "256"      
+        y = "948"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

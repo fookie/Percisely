@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Settings">
+    <item
+        android:id="@+id/settings_confirm_button"
+        android:icon="@drawable/settings_confirm"
+        android:orderInCategory="100"
+        android:title="@string/settings_actionbar_save"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settings_cancel_button"
+        android:icon="@drawable/settings_cancel"
+        android:orderInCategory="99"
+        android:title="@string/settings_actionbar_cancel"
+        app:showAsAction="ifRoom" />
+</menu>

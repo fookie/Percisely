@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addTaskRecordRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/addTaskRecordPlay"
+        android:layout_toStartOf="@+id/addTaskRecordPlay"
+        android:text="@string/addtask_record_record" />
+
+    <Button
+        android:id="@+id/addTaskRecordPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/addtask_record_play" />
+
+    <Button
+        android:id="@+id/addTaskRecordDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/addTaskRecordPlay"
+        android:layout_toRightOf="@+id/addTaskRecordPlay"
+        android:text="@string/addtask_record_delete"
+        android:textColor="@android:color/holo_red_dark"
+        android:enabled="false" />
+
+</RelativeLayout>
